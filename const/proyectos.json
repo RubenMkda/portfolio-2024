@@ -1,0 +1,46 @@
+{
+    "proyectos": [
+        {
+          "nombre": "CL Estética Masculina",
+          "descripcion": "Breve descripción del proyecto",
+          "tecnologias": ["Tecnología 1", "Tecnología 2", "Tecnología 3"],
+          "enlace": "https://clesteticamasculinabarcelona.com",
+          "imagen": "https://i.postimg.cc/52Z77JLJ/CLESTETICA.png"
+        },
+        {
+          "nombre": "Otro proyecto",
+          "descripcion": "Descripción",
+          "tecnologias": ["Tecnología 1", "Tecnología 2"],
+          "enlace": "Enlace (opcional)",
+          "imagen": "https://i.postimg.cc/SKCZHPfM/Opera-Instant-nea-2024-05-04-162124-asajaalmeria-org.png"
+        },
+        {
+          "nombre": "Otro proyecto",
+          "descripcion": "Descripción",
+          "tecnologias": ["Tecnología 1", "Tecnología 2"],
+          "enlace": "Enlace (opcional)",
+          "imagen": "https://i.postimg.cc/fyLfWqm5/Opera-Instant-nea-2024-05-04-162157-aribelti-com.png"
+        },
+        {
+          "nombre": "Otro proyecto",
+          "descripcion": "Descripción",
+          "tecnologias": ["Tecnología 1", "Tecnología 2"],
+          "enlace": "Enlace (opcional)",
+          "imagen": "https://i.postimg.cc/wxfk4HYr/Opera-Instant-nea-2024-05-04-162604-www-controlgraf-com.png"
+        },
+        {
+          "nombre": "Otro proyecto",
+          "descripcion": "Descripción",
+          "tecnologias": ["Tecnología 1", "Tecnología 2"],
+          "enlace": "Enlace (opcional)",
+          "imagen": "https://i.postimg.cc/ydnTHCgk/Opera-Instant-nea-2024-05-04-162645-yogamuladhara-com.png"
+        },
+        {
+          "nombre": "Otro proyecto",
+          "descripcion": "Descripción",
+          "tecnologias": ["Tecnología 1", "Tecnología 2"],
+          "enlace": "Enlace (opcional)",
+          "imagen": "https://i.postimg.cc/KjHr175b/Opera-Instant-nea-2024-05-04-163022-grtalks-com.png"
+        }
+      ]
+}
