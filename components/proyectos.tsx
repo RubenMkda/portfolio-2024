@@ -18,7 +18,7 @@ const Proyectos =() => {
                 <div key={index} className='my-32 flex justify-center'>
                         <div className="card">
                             <div className="wrapper border border-2 border-white">
-                                <Image loader={() => {return proyecto.imagen}} src={"/0.jpg"} className={"cover-image"} width={300} height={300} alt='hola'/>
+                                <Image loader={() => {return proyecto.imagen}} src={"0.jpg"} className={"cover-image"} width={300} height={300} alt='hola'/>
                             </div>
                             <img src="https://clesteticamasculinabarcelona.com/wp-content/uploads/2023/12/Isologo.webp" className="title" />
                         </div>
