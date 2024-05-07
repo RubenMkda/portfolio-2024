@@ -5,42 +5,48 @@
           "descripcion": "Breve descripción del proyecto",
           "tecnologias": ["Tecnología 1", "Tecnología 2", "Tecnología 3"],
           "enlace": "https://clesteticamasculinabarcelona.com",
-          "imagen": "https://i.postimg.cc/52Z77JLJ/CLESTETICA.png"
+          "imagen": "https://i.postimg.cc/52Z77JLJ/CLESTETICA.png",
+          "isologo": "https://clesteticamasculinabarcelona.com/wp-content/uploads/2023/12/Isologo.webp"
         },
         {
           "nombre": "Otro proyecto",
           "descripcion": "Descripción",
           "tecnologias": ["Tecnología 1", "Tecnología 2"],
           "enlace": "Enlace (opcional)",
-          "imagen": "https://i.postimg.cc/SKCZHPfM/Opera-Instant-nea-2024-05-04-162124-asajaalmeria-org.png"
+          "imagen": "https://i.postimg.cc/SKCZHPfM/Opera-Instant-nea-2024-05-04-162124-asajaalmeria-org.png",
+          "isologo": "https://asajaalmeria.org/wp-content/uploads/2018/07/logo-footer_Asaja.png"
         },
         {
           "nombre": "Otro proyecto",
           "descripcion": "Descripción",
           "tecnologias": ["Tecnología 1", "Tecnología 2"],
           "enlace": "Enlace (opcional)",
-          "imagen": "https://i.postimg.cc/fyLfWqm5/Opera-Instant-nea-2024-05-04-162157-aribelti-com.png"
+          "imagen": "https://i.postimg.cc/fyLfWqm5/Opera-Instant-nea-2024-05-04-162157-aribelti-com.png",
+          "isologo": "https://aribelti.com/wp-content/uploads/elementor/thumbs/Logo-aribelti-2-oxknk1cnecm2z8uwtpf6n4semn68m032gv28xx70wc-q7wkumlcwnxhx0nao5rzvetyutcpdcywl6nu3s3uiq.png"
         },
         {
           "nombre": "Otro proyecto",
           "descripcion": "Descripción",
           "tecnologias": ["Tecnología 1", "Tecnología 2"],
           "enlace": "Enlace (opcional)",
-          "imagen": "https://i.postimg.cc/wxfk4HYr/Opera-Instant-nea-2024-05-04-162604-www-controlgraf-com.png"
+          "imagen": "https://i.postimg.cc/wxfk4HYr/Opera-Instant-nea-2024-05-04-162604-www-controlgraf-com.png",
+          "isologo": "https://www.controlgraf.com/wp-content/uploads/2022/02/logo-caligraf-630.jpg"
         },
         {
           "nombre": "Otro proyecto",
           "descripcion": "Descripción",
           "tecnologias": ["Tecnología 1", "Tecnología 2"],
           "enlace": "Enlace (opcional)",
-          "imagen": "https://i.postimg.cc/ydnTHCgk/Opera-Instant-nea-2024-05-04-162645-yogamuladhara-com.png"
+          "imagen": "https://i.postimg.cc/ydnTHCgk/Opera-Instant-nea-2024-05-04-162645-yogamuladhara-com.png",
+          "isologo": "https://yogamuladhara.com/wp-content/uploads/2023/01/Muladhara-logo-Transparent.png"
         },
         {
           "nombre": "Otro proyecto",
           "descripcion": "Descripción",
           "tecnologias": ["Tecnología 1", "Tecnología 2"],
           "enlace": "Enlace (opcional)",
-          "imagen": "https://i.postimg.cc/KjHr175b/Opera-Instant-nea-2024-05-04-163022-grtalks-com.png"
+          "imagen": "https://i.postimg.cc/KjHr175b/Opera-Instant-nea-2024-05-04-163022-grtalks-com.png",
+          "isologo": "https://grtalks.com/wp-content/uploads/2023/11/Recurso-2-4.webp"
         }
       ]
 }
