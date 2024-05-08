@@ -11,18 +11,21 @@
   --background-start-rgb: 0, 0, 0;
   --background-end-rgb: 0, 0, 0;
   --card-height: 300px;
-	--card-width: calc(var(--card-height) / 1.5);
+  --card-width: calc(var(--card-height) / 1.5);
+
+  --dotSize: 0.07rem;
+  --dotDensity: 0.5rem;
+  
+  --highlightFocus: 5rem;
+  --highlightSize: 20rem;
+
+  --pointerThickness: 1px;
+  --pointerSize: 32px;
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
+	color: rgb(var(--foreground-rgb));
+  }
 
 @layer utilities {
   .text-balance {
@@ -30,6 +33,86 @@ body {
   }
 }
 
+#wrapper{
+	--dot-bg: black;
+	--dot-color: white;
+	--dot-size: 0.07rem;
+	--dot-space: 1.5rem;
+
+	cursor: none;
+
+	min-height: 100vh;
+	width: 100%;
+	background: #000;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	overflow: hidden;
+
+	background:
+		  linear-gradient(90deg, var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space),
+		  linear-gradient(var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space),
+		  var(--dot-color);
+
+}
+
+#cursor {
+	position: fixed;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+	pointer-events: none;
+	touch-action: none;
+	user-select: none;
+	
+	top: var(--cursorY, 0);
+	left: var(--cursorX, 0);
+}
+#cursor::before {
+	content: '';
+	position: absolute;
+	
+	width: var(--pointerSize);
+	height: var(--pointerSize);
+	
+	background:
+		linear-gradient(
+			#0000 calc(50% - var(--pointerThickness) / 2),
+			#fff calc(50% - var(--pointerThickness) / 2),
+			#fff calc(50% + var(--pointerThickness) / 2),
+			#0000 calc(50% + var(--pointerThickness) / 2)
+		) no-repeat,
+		linear-gradient(
+			90deg,
+			#0000 calc(50% - var(--pointerThickness) / 2),
+			#fff calc(50% - var(--pointerThickness) / 2),
+			#fff calc(50% + var(--pointerThickness) / 2),
+			#0000 calc(50% + var(--pointerThickness) / 2)
+		) no-repeat;
+}
+#cursor::after{
+	content: "";
+	position: absolute;	
+
+	width: 120px;
+	height: 120px;
+	background: white;
+	border-radius: 100%;
+	z-index: -2;
+	filter: blur(80px);
+}
+#cursor.pointer::after {
+	content: '';
+	position: absolute;
+
+	width: calc(var(--pointerSize) * 0.2);
+	height: calc(var(--pointerSize) * 0.2);
+
+	background-color: #fff!important;
+	border: 1px solid #000;
+}
 .card {
 	width: 1200px;
 	height: 100%;
