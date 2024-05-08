@@ -2,7 +2,7 @@
     "proyectos": [
         {
           "nombre": "CL Estética Masculina",
-          "descripcion": "Breve descripción del proyecto",
+          "descripcion": "Con orgullo presento la página web de CL Estética, un destino virtual para la belleza y el rejuvenecimiento. Diseñada con pasión y dedicación, ofrece una experiencia digital envolvente, mostrando nuestra gama de servicios personalizados y nuestro compromiso con la excelencia estética. ¡Bienvenidos a nuestro mundo de elegancia y cuidado en CL Estética!",
           "tecnologias": ["Tecnología 1", "Tecnología 2", "Tecnología 3"],
           "enlace": "https://clesteticamasculinabarcelona.com",
           "imagen": "https://i.postimg.cc/52Z77JLJ/CLESTETICA.png",
@@ -10,7 +10,7 @@
         },
         {
           "nombre": "Otro proyecto",
-          "descripcion": "Descripción",
+          "descripcion": "Presento con orgullo la página web de Asaja Almería, un vínculo digital para agricultores comprometidos. Diseñada con dedicación, nuestra plataforma ofrece recursos vitales, noticias relevantes y servicios para fortalecer la comunidad agrícola. ¡Bienvenidos a la plataforma que impulsa el progreso agrícola en Asaja Almería!",
           "tecnologias": ["Tecnología 1", "Tecnología 2"],
           "enlace": "Enlace (opcional)",
           "imagen": "https://i.postimg.cc/SKCZHPfM/Opera-Instant-nea-2024-05-04-162124-asajaalmeria-org.png",
@@ -18,7 +18,7 @@
         },
         {
           "nombre": "Otro proyecto",
-          "descripcion": "Descripción",
+          "descripcion": "Te presento con orgullo la página web de Aribelti, tu destino para soluciones capilares de vanguardia. Diseñada con esmero, nuestra plataforma digital ofrece información detallada sobre nuestros tratamientos innovadores y servicios personalizados. ¡Bienvenidos a la revolución capilar en Aribelti!",
           "tecnologias": ["Tecnología 1", "Tecnología 2"],
           "enlace": "Enlace (opcional)",
           "imagen": "https://i.postimg.cc/fyLfWqm5/Opera-Instant-nea-2024-05-04-162157-aribelti-com.png",
@@ -26,7 +26,7 @@
         },
         {
           "nombre": "Otro proyecto",
-          "descripcion": "Descripción",
+          "descripcion": "Con satisfacción, presento la página web de Controlgraf, tu socio en soluciones gráficas. Diseñada con precisión, nuestra plataforma digital exhibe nuestra gama de servicios especializados y tecnología de punta. ¡Bienvenidos al mundo de la excelencia gráfica con Controlgraf!",
           "tecnologias": ["Tecnología 1", "Tecnología 2"],
           "enlace": "Enlace (opcional)",
           "imagen": "https://i.postimg.cc/wxfk4HYr/Opera-Instant-nea-2024-05-04-162604-www-controlgraf-com.png",
@@ -34,7 +34,7 @@
         },
         {
           "nombre": "Otro proyecto",
-          "descripcion": "Descripción",
+          "descripcion": "Con entusiasmo, te presento la página web de Yogamudlahara, tu refugio de serenidad y fortaleza. Diseñada con devoción, nuestra plataforma digital ofrece información detallada sobre nuestras clases de yoga, retiros espirituales y técnicas de meditación. ¡Bienvenidos al camino de equilibrio y armonía en Yogamudlahara!",
           "tecnologias": ["Tecnología 1", "Tecnología 2"],
           "enlace": "Enlace (opcional)",
           "imagen": "https://i.postimg.cc/ydnTHCgk/Opera-Instant-nea-2024-05-04-162645-yogamuladhara-com.png",
@@ -42,11 +42,11 @@
         },
         {
           "nombre": "Otro proyecto",
-          "descripcion": "Descripción",
+          "descripcion": "Con orgullo, presento la landing page de Grtalks, tu plataforma para conversaciones significativas. Diseñada con precisión, ofrece acceso a charlas inspiradoras, talleres y recursos para el desarrollo personal y profesional. ¡Únete a la comunidad de Grtalks y déjate inspirar!",
           "tecnologias": ["Tecnología 1", "Tecnología 2"],
           "enlace": "Enlace (opcional)",
           "imagen": "https://i.postimg.cc/KjHr175b/Opera-Instant-nea-2024-05-04-163022-grtalks-com.png",
-          "isologo": "https://grtalks.com/wp-content/uploads/2023/11/Recurso-2-4.webp"
+          "isologo": "https://grtalks.com/wp-content/uploads/2023/11/Recurso-1.png"
         }
       ]
 }

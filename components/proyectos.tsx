@@ -14,7 +14,7 @@ export interface ProyectosData {
 const Proyectos =() => {  
 
     return (
-        <section className='grid grid-cols-1 gap-4 justify-items-center sm:grid-cols-2'>
+        <section className='grid grid-cols-1 gap-4 justify-items-center lg:grid-cols-2 py-8'>
             {portfolioData.proyectos.map((proyecto: ProyectosData, index: number) => (
                 <div key={index} className='my-48 flex justify-center w-full'>
                         <div className="card">
@@ -22,7 +22,7 @@ const Proyectos =() => {
                                 <Image loader={() => {return proyecto.imagen}} src={"0.jpg"} className={"cover-image"} width={500} height={500} alt='hola'/>
                             </div>
                             <img src={proyecto.isologo} className="title" />
-                            <p className='content'>Con entusiasmo, presento la página web de Fu Ibérica, líder en soluciones de transmisión. Diseñada meticulosamente, nuestra plataforma digital ofrece información detallada sobre nuestra gama de productos de alta calidad y servicios especializados. ¡Bienvenidos al mundo de la excelencia en transmisiones con Fu Ibérica!</p>
+                            <p className='content text-xs md:text-sm lg:text-base'>{proyecto.descripcion}</p>
                         </div>
                 </div>
             ))}
