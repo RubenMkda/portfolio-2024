@@ -1,44 +1,54 @@
 "use client"
 import React, { useEffect, useRef } from 'react';
 
-const CanvasBackground = () => {
-  const canvasRef = useRef(null);
-  const circleRef = useRef({ x: 0, y: 0 }); // Referencia para almacenar la posición del círculo
+const CanvasBackground: React.FC = () => {
+  const canvasRef = useRef<HTMLCanvasElement>(null);
+  const circleRef = useRef<{ x: number; y: number }>({ x: 0, y: 0 });
 
   useEffect(() => {
     const canvas = canvasRef.current;
-    const context = canvas.getContext('2d');
+    const context = canvas?.getContext('2d');
 
     const resizeCanvas = () => {
-      canvas.width = window.innerWidth;
-      canvas.height = window.innerHeight;
+      if (canvas) {
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+      }
     };
 
     resizeCanvas();
 
     const drawSpotlight = () => {
+      if (context) {
         const gradient = context.createRadialGradient(
-          circleRef.current.x, circleRef.current.y, 0,
-          circleRef.current.x, circleRef.current.y, 300
+          circleRef.current.x,
+          circleRef.current.y,
+          0,
+          circleRef.current.x,
+          circleRef.current.y,
+          300
         );
         gradient.addColorStop(0, 'rgba(0, 0, 0, 0)');
         gradient.addColorStop(1, 'rgba(0, 0, 0, 1)');
-      
-        context.clearRect(0, 0, canvas.width, canvas.height);
-        context.fillStyle = gradient;
-        context.fillRect(0, 0, canvas.width, canvas.height);
-      
+
+        // Verificar si canvas es nulo antes de acceder a sus propiedades
+        if (canvas) {
+          context.clearRect(0, 0, canvas.width, canvas.height);
+          context.fillStyle = gradient;
+          context.fillRect(0, 0, canvas.width, canvas.height);
+        }
+
         requestAnimationFrame(drawSpotlight);
-      };
-      
-      drawSpotlight();
-      
+      }
+    };
+
+    drawSpotlight();
 
     const handleResize = () => {
       resizeCanvas();
     };
 
-    const handleMouseMove = (event) => {
+    const handleMouseMove = (event: MouseEvent) => {
       // Actualizar la posición del círculo con la posición del cursor
       circleRef.current.x = event.clientX;
       circleRef.current.y = event.clientY;
