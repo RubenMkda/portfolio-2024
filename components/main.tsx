@@ -1,10 +1,6 @@
 import Image from "next/image"
 
 
-// const ImageLoader = () => {
-//     return 
-// }
-
 const MainHome = () => {
     return(
         <main className="h-screen w-screen flex justify-center items-center flex-col">
