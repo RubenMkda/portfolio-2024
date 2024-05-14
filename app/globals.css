@@ -24,7 +24,16 @@
 }
 
 body {
+	--dot-bg: black;
+	--dot-color: white;
+	--dot-size: 0.07rem;
+	--dot-space: 1.5rem;
+
 	color: rgb(var(--foreground-rgb));
+	background:
+		  linear-gradient(90deg, var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space),
+		  linear-gradient(var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space),
+		  var(--dot-color);
   }
 
 @layer utilities {
@@ -38,23 +47,6 @@ body {
 	--dot-color: white;
 	--dot-size: 0.07rem;
 	--dot-space: 1.5rem;
-
-	cursor: none;
-
-	min-height: 100vh;
-	width: 100%;
-	background: #000;
-	display: flex;
-	justify-content: center;
-	flex-direction: column;
-	align-items: center;
-	overflow: hidden;
-
-	background:
-		  linear-gradient(90deg, var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space),
-		  linear-gradient(var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space),
-		  var(--dot-color);
-
 }
 
 #cursor {
